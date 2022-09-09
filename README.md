@@ -11,6 +11,4 @@ There are three programs in the folder:
 2. train_test_split.ipynb splits the arrays into train and test sets.
 3. plot_recognition.ipynb trains a neural network on these data.
 
-Some of the curves produced by this version's curve generator were almost horizontal or had a very small range between ymax and ymin, which would not happen in real life as people normally scale their plots to match the curve range.
-
-Another issue was that lines were dotted in areas where the function is rapidly raising or falling.
+This version uses Matplotlib to produce smooth curves that are then saved in a Numpy array.
