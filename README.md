@@ -10,5 +10,10 @@ There are three programs in the folder:
 1. curve_generator.ipynb generates a given number of random curves by spline approximation on a set of randomly knots. And then generates plots of these curves with random numbers of grid lines. The results are saved as Numpy arrays.
 2. train_test_split.ipynb splits the arrays into train and test sets.
 3. plot_recognition.ipynb trains a neural network on these data.
+4. OmegaLambda.ipynb test the trained model on a real plot.
 
-This version uses Matplotlib to produce smooth curves that are then saved in a Numpy array.
+This version uses Matplotlib to produce smooth curves which are then saved in a Numpy array used to train a neural network. I used the default settings of Matplotlib for the curve and grid line thicknesses in this version.
+
+For more details, please visit:
+In Russian: https://denis-kazakov.com/nomogram_ru.html
+In English: https://denis-kazakov.com/nomogram_en.html
